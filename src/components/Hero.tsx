@@ -12,7 +12,7 @@ const STATS = [
   { value: "6 mois", label: "de formation" },
 ];
 
-export default function Hero() {
+export default function Hero({ vslId = "TTLI7ZsYSFTFuoJT" }: { vslId?: string }) {
   return (
     <section className="relative pt-[100px] sm:pt-[120px] pb-16 bg-white overflow-hidden">
       <GridLines />
@@ -177,7 +177,7 @@ export default function Hero() {
         >
           <div className="rounded-2xl sm:rounded-3xl border border-[#e5e5e5] bg-[#131316] overflow-hidden shadow-[0_8px_40px_rgba(0,0,0,0.12)]">
             <div
-              id="vidalytics_embed_TTLI7ZsYSFTFuoJT"
+              id={`vidalytics_embed_${vslId}`}
               style={{ width: "100%", position: "relative", paddingTop: "56.25%" }}
             />
           </div>
