@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter_Tight, Caveat } from "next/font/google";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const interTight = Inter_Tight({
   variable: "--font-inter-tight",
@@ -91,6 +93,8 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <JsonLd />
         {children}
+        <Analytics />
+        <SpeedInsights />
         <script
           dangerouslySetInnerHTML={{
             __html: `
