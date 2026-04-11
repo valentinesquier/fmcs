@@ -14,6 +14,8 @@ import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import SocialNotif from "@/components/SocialNotif";
 import IClosedPopup from "@/components/IClosedPopup";
+import CookieBanner from "@/components/CookieBanner";
+import ExitPopup from "@/components/ExitPopup";
 
 export default function Home() {
   return (
@@ -36,6 +38,8 @@ export default function Home() {
       <MobileCTA />
       <SocialNotif />
       <IClosedPopup />
+      <CookieBanner />
+      <ExitPopup />
     </>
   );
 }
