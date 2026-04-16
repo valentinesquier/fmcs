@@ -7,7 +7,7 @@ import GridLines from "./GridLines";
 import BrandMarquee from "./BrandMarquee";
 
 const STATS = [
-  { value: "+1 000", label: "coachs formés" },
+  { value: "+4 000", label: "coachs formés" },
   { value: "4.2/5", label: "Trustpilot" },
   { value: "6 mois", label: "de formation" },
 ];
@@ -35,7 +35,7 @@ export default function Hero({ vslId = "TTLI7ZsYSFTFuoJT" }: { vslId?: string })
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-[#e5b80b]" />
                 </span>
                 <span className="text-[0.75rem] font-500 text-[#555]">
-                  +1 000 coachs formés
+                  +4 000 coachs formés
                 </span>
               </div>
 
@@ -192,10 +192,10 @@ export default function Hero({ vslId = "TTLI7ZsYSFTFuoJT" }: { vslId?: string })
         >
           <div className="grid grid-cols-2 lg:grid-cols-4">
             {[
-              { label: "Nombre de coachs formés", value: "+1 000", emoji: "🎓" },
+              { label: "Nombre de coachs formés", value: "+4 000", emoji: "🎓" },
               { label: "Note Trustpilot", value: "4.2/5", emoji: "⭐" },
               { label: "Satisfaction de nos élèves", value: "98%", emoji: "🔥" },
-              { label: "Nombre d'heures de contenu", value: "150", emoji: "🎬" },
+              { label: "Heures de cours + rediffusions live", value: "55h+", emoji: "🎬" },
             ].map((stat, i) => (
               <div
                 key={stat.label}

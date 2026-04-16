@@ -70,7 +70,7 @@ export default function JsonLd() {
       "@type": "AggregateRating",
       ratingValue: "4.2",
       bestRating: "5",
-      ratingCount: "1000",
+      ratingCount: "4000",
       reviewCount: "34",
     },
   };

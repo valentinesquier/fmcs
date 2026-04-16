@@ -73,7 +73,7 @@ function ChartSection() {
         </p>
       </div>
 
-      <div className="flex items-end gap-2 sm:gap-4 h-[200px] mb-4">
+      <div className="flex items-end gap-[3px] sm:gap-4 h-[200px] mb-4 overflow-hidden">
         {CHART_BARS.map((bar, i) => (
           <div key={bar.year} className="flex-1 flex flex-col items-center gap-1">
             <span className="text-[0.5rem] sm:text-[0.625rem] text-[#888] font-500">{bar.value}B</span>
@@ -173,18 +173,18 @@ export default function Problem() {
 
           {/* Schéma marché */}
           <div className="my-4 border border-[#e5e5e5] rounded-[20px] bg-[#f8f7f4] p-6 sm:p-8">
-            <div className="grid grid-cols-3 gap-4 sm:gap-6 mb-6">
+            <div className="grid grid-cols-3 gap-2 sm:gap-6 mb-6">
               <div className="text-center">
-                <div className="text-[2rem] sm:text-[2.5rem] font-700 text-[#e5b80b] tracking-[-0.02em]">71%</div>
-                <p className="text-[0.75rem] text-[#555] mt-1">des Français pratiquent une activité physique</p>
+                <div className="text-[1.5rem] sm:text-[2.5rem] font-700 text-[#e5b80b] tracking-[-0.02em]">71%</div>
+                <p className="text-[0.6875rem] sm:text-[0.75rem] text-[#555] mt-1">des Français pratiquent une activité physique</p>
               </div>
               <div className="text-center">
-                <div className="text-[2rem] sm:text-[2.5rem] font-700 text-[#e5b80b] tracking-[-0.02em]">+10%</div>
-                <p className="text-[0.75rem] text-[#555] mt-1">de croissance annuelle du coaching sportif</p>
+                <div className="text-[1.5rem] sm:text-[2.5rem] font-700 text-[#e5b80b] tracking-[-0.02em]">+10%</div>
+                <p className="text-[0.6875rem] sm:text-[0.75rem] text-[#555] mt-1">de croissance annuelle du coaching sportif</p>
               </div>
               <div className="text-center">
-                <div className="text-[2rem] sm:text-[2.5rem] font-700 text-[#e5b80b] tracking-[-0.02em]">4.2M</div>
-                <p className="text-[0.75rem] text-[#555] mt-1">d&apos;abonnés en salle de sport en France</p>
+                <div className="text-[1.5rem] sm:text-[2.5rem] font-700 text-[#e5b80b] tracking-[-0.02em]">4.2M</div>
+                <p className="text-[0.6875rem] sm:text-[0.75rem] text-[#555] mt-1">d&apos;abonnés en salle de sport en France</p>
               </div>
             </div>
 

@@ -28,7 +28,7 @@ export default function MurTemoignages() {
           className="text-center mb-12"
         >
           <h2 className="text-[clamp(1.75rem,4vw,2.75rem)] font-700 leading-[1.1] tracking-[-0.02em] mb-4">
-            + de 1000 coachs formés par la FMCS.{" "}
+            + de 4000 coachs formés par la FMCS.{" "}
             <span className="text-[#e5b80b]">Leurs avis.</span>
           </h2>
           <div className="flex items-center justify-center gap-4">

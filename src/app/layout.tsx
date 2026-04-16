@@ -20,7 +20,7 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "FMCS | Fitmass Coaching School | Deviens coach en musculation",
   description:
-    "L'école en ligne la plus complète pour maîtriser le coaching en musculation, trouver des clients et vivre de ta passion en 6 mois. +1000 coachs formés. 4.2/5 Trustpilot.",
+    "L'école en ligne la plus complète pour maîtriser le coaching en musculation, trouver des clients et vivre de ta passion en 6 mois. +4000 coachs formés. 4.2/5 Trustpilot.",
   keywords: [
     "formation coaching musculation",
     "devenir coach sportif",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "FMCS | La formation n°1 pour vivre du coaching en musculation",
     description:
-      "L'école en ligne la plus complète du marché. De l'anatomie au business. +1000 coachs formés. Rejoins la FMCS.",
+      "L'école en ligne la plus complète du marché. De l'anatomie au business. +4000 coachs formés. Rejoins la FMCS.",
     type: "website",
     locale: "fr_FR",
     url: "https://fitmass.school",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FMCS | Deviens coach en musculation en 6 mois",
     description:
-      "L'école en ligne la plus complète pour maîtriser le coaching en musculation. +1000 coachs formés.",
+      "L'école en ligne la plus complète pour maîtriser le coaching en musculation. +4000 coachs formés.",
     images: ["/images/fmcs-hero.jpeg"],
   },
   robots: {
