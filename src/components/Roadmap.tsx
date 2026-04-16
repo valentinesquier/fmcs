@@ -316,8 +316,8 @@ export default function Roadmap() {
           </div>
         </div>
 
-        {/* Calculateur de revenus */}
-        <RevenueCalculator inView={inView} />
+        {/* Calculateur de revenus — masqué */}
+        {/* <RevenueCalculator inView={inView} /> */}
       </div>
     </section>
   );

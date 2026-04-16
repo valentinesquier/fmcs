@@ -23,7 +23,7 @@ export default function Candidature() {
         <Hero vslId="_i9xC0YlOOwumdxu" />
         <Problem />
         <Pillars />
-        <CartePro />
+        {/* <CartePro /> */}
         <HowToJoin />
         <Comparison />
         <Roadmap />

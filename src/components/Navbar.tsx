@@ -7,7 +7,6 @@ import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "L'accompagnement", href: "#programme" },
-  { label: "Carte pro", href: "#carte-pro" },
   { label: "Comparatif", href: "#comparatif" },
   { label: "Témoignages", href: "#temoignages" },
   { label: "FAQ", href: "#faq" },
