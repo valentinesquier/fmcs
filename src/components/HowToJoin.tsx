@@ -26,7 +26,7 @@ const STEPS = [
   },
 ];
 
-export default function HowToJoin() {
+export default function HowToJoin({ children }: { children?: React.ReactNode }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -83,23 +83,25 @@ export default function HowToJoin() {
           ))}
         </div>
 
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-center"
-        >
-          <a href="#rdv" className="red-button inline-block">
-            <span className="red-button-inner text-[1rem] px-10 py-4">
-              Réserver mon appel découverte
-              <ArrowRight size={18} weight="bold" />
-            </span>
-          </a>
-          <p className="text-[0.8125rem] text-[#888] mt-4">
-            Gratuit &middot; Sans engagement &middot; 45 minutes
-          </p>
-        </motion.div>
+        {/* CTA ou slot custom (widget inline pour /decouvrir-ga) */}
+        {children ?? (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="text-center"
+          >
+            <a href="#rdv" className="red-button inline-block">
+              <span className="red-button-inner text-[1rem] px-10 py-4">
+                Réserver mon appel découverte
+                <ArrowRight size={18} weight="bold" />
+              </span>
+            </a>
+            <p className="text-[0.8125rem] text-[#888] mt-4">
+              Gratuit &middot; Sans engagement &middot; 45 minutes
+            </p>
+          </motion.div>
+        )}
       </div>
     </section>
   );
