@@ -265,7 +265,7 @@ export default function ConfirmationContent({
                 l&apos;accompagnement.
               </p>
               <a
-                href="https://www.fitmass.school/coaching"
+                href="https://www.fitmass.school"
                 className="red-button inline-block mb-8"
               >
                 <span className="red-button-inner text-[0.9375rem] px-8 py-3">
