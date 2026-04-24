@@ -1,10 +1,10 @@
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
 
 export default function PolitiqueConfidentialite() {
   return (
     <main className="pt-[100px] pb-20 bg-white">
       <div className="mx-auto max-w-[720px] px-6 prose prose-neutral">
-        <Link href="/" className="inline-flex items-center gap-2 text-[0.875rem] text-[#555] hover:text-[#131316] mb-8 no-underline">&larr; Retour au site</Link>
+        <BackLink className="mb-8" />
         <h1 className="text-[2rem] font-700 mb-8">Politique de Confidentialité</h1>
 
         <h2>Informations personnelles recueillies</h2>
@@ -45,7 +45,7 @@ export default function PolitiqueConfidentialite() {
         <h2>Nous contacter</h2>
         <p>Email : contact@fitmass.school<br />Adresse : 45 Quai Dr Gailleton, Lyon, ARA, 69002, France</p>
 
-        <div className="mt-12"><Link href="/" className="inline-flex items-center gap-2 text-[0.875rem] text-[#555] hover:text-[#131316] no-underline">&larr; Retour au site</Link></div>
+        <div className="mt-12"><BackLink /></div>
       </div>
     </main>
   );

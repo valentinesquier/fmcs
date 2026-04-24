@@ -1,10 +1,10 @@
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
 
 export default function MentionsLegales() {
   return (
     <main className="pt-[100px] pb-20 bg-white">
       <div className="mx-auto max-w-[720px] px-6 prose prose-neutral">
-        <Link href="/" className="inline-flex items-center gap-2 text-[0.875rem] text-[#555] hover:text-[#131316] mb-8 no-underline">&larr; Retour au site</Link>
+        <BackLink className="mb-8" />
         <h1 className="text-[2rem] font-700 mb-8">Mentions Légales</h1>
 
         <h2>Responsable de la publication</h2>
@@ -28,7 +28,7 @@ export default function MentionsLegales() {
         <h2>Droit applicable</h2>
         <p>Tout litige relatif à l&apos;utilisation de ce site internet est soumis au droit français. En cas de litige, les tribunaux français seront seuls compétents.</p>
 
-        <div className="mt-12"><Link href="/" className="inline-flex items-center gap-2 text-[0.875rem] text-[#555] hover:text-[#131316] no-underline">&larr; Retour au site</Link></div>
+        <div className="mt-12"><BackLink /></div>
       </div>
     </main>
   );

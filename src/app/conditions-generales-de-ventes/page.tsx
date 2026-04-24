@@ -1,10 +1,10 @@
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
 
 export default function CGV() {
   return (
     <main className="pt-[100px] pb-20 bg-white">
       <div className="mx-auto max-w-[720px] px-6 prose prose-neutral">
-        <Link href="/" className="inline-flex items-center gap-2 text-[0.875rem] text-[#555] hover:text-[#131316] mb-8 no-underline">&larr; Retour au site</Link>
+        <BackLink className="mb-8" />
         <h1 className="text-[2rem] font-700 mb-8">Conditions Générales de Ventes</h1>
 
         <p><strong>FIT-MASS FORMATIONS</strong><br />SARL au capital de 1 200€<br />45 Quai Dr Gailleton - 69002 Lyon<br />RCS Lyon : 912 845 534<br />Code APE : 8559A<br />TVA : FR22912845534</p>
@@ -77,7 +77,7 @@ export default function CGV() {
         <h2>Article 16 : Propriété intellectuelle</h2>
         <p>Fit-Mass School détient la propriété des droits d&apos;auteur sur les méthodologies de formation. Toute utilisation non autorisée sans autorisation écrite préalable constitue une contrefaçon ou une concurrence déloyale.</p>
 
-        <div className="mt-12"><Link href="/" className="inline-flex items-center gap-2 text-[0.875rem] text-[#555] hover:text-[#131316] no-underline">&larr; Retour au site</Link></div>
+        <div className="mt-12"><BackLink /></div>
       </div>
     </main>
   );

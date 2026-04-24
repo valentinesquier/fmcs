@@ -26,7 +26,7 @@ export default function DecouvrirGa() {
     <>
       <Navbar />
       <main className="pb-16 md:pb-0">
-        <Hero />
+        <Hero vslId="Qm7vdHIW8YBNjzG8" />
         <Problem />
         <Pillars />
         <HowToJoin>
