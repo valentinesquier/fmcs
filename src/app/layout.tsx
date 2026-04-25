@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter_Tight, Caveat } from "next/font/google";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -35,9 +36,9 @@ export const metadata: Metadata = {
     "formation nutrition sport",
     "programmation entraînement",
   ],
-  metadataBase: new URL("https://fitmass.school"),
+  metadataBase: new URL(SITE_URL),
   alternates: {
-    canonical: "https://fitmass.school",
+    canonical: SITE_URL,
   },
   icons: {
     icon: "/images/favicon.png",
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
       "L'école en ligne la plus complète du marché. De l'anatomie au business. +4000 coachs formés. Rejoins la FMCS.",
     type: "website",
     locale: "fr_FR",
-    url: "https://fitmass.school",
+    url: SITE_URL,
     siteName: "FMCS - Fitmass Coaching School",
     images: [
       {

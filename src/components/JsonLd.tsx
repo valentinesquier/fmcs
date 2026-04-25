@@ -1,3 +1,5 @@
+import { SITE_URL } from "@/lib/site";
+
 export default function JsonLd() {
   const faqSchema = {
     "@context": "https://schema.org",
@@ -58,8 +60,8 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "FMCS - Fitmass Coaching School",
-    url: "https://fitmass.school",
-    logo: "https://fitmass.school/images/favicon.png",
+    url: SITE_URL,
+    logo: `${SITE_URL}/images/favicon.png`,
     founder: {
       "@type": "Person",
       name: "Nassim Sahili",
@@ -70,7 +72,7 @@ export default function JsonLd() {
       "@type": "AggregateRating",
       ratingValue: "4.2",
       bestRating: "5",
-      ratingCount: "4000",
+      ratingCount: "34",
       reviewCount: "34",
     },
   };
@@ -84,7 +86,7 @@ export default function JsonLd() {
     provider: {
       "@type": "Organization",
       name: "FMCS - Fitmass Coaching School",
-      url: "https://fitmass.school",
+      url: SITE_URL,
     },
     educationalLevel: "Tous niveaux",
     inLanguage: "fr",
