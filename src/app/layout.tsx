@@ -90,6 +90,10 @@ export default function RootLayout({
       lang="fr"
       className={`${interTight.variable} ${caveat.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="preconnect" href="https://app.iclosed.io" />
+        <link rel="dns-prefetch" href="https://app.iclosed.io" />
+      </head>
       <body className="min-h-full flex flex-col">
         <JsonLd />
         {children}

@@ -4,6 +4,19 @@ import { useState, useEffect } from "react";
 
 export default function IClosedPopup() {
   const [isOpen, setIsOpen] = useState(false);
+  const [iframeMounted, setIframeMounted] = useState(false);
+
+  useEffect(() => {
+    const w = window as Window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+    };
+    if (w.requestIdleCallback) {
+      w.requestIdleCallback(() => setIframeMounted(true), { timeout: 3000 });
+    } else {
+      const t = setTimeout(() => setIframeMounted(true), 1500);
+      return () => clearTimeout(t);
+    }
+  }, []);
 
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
@@ -11,6 +24,7 @@ export default function IClosedPopup() {
       const link = target.closest('a[href="#rdv"]');
       if (link) {
         e.preventDefault();
+        setIframeMounted(true);
         setIsOpen(true);
       }
     };
@@ -28,10 +42,16 @@ export default function IClosedPopup() {
     return () => { document.body.style.overflow = ""; };
   }, [isOpen]);
 
-  if (!isOpen) return null;
-
   return (
-    <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center">
+    <div
+      className="fixed inset-0 z-[100] flex flex-col items-center justify-center"
+      style={{
+        opacity: isOpen ? 1 : 0,
+        pointerEvents: isOpen ? "auto" : "none",
+        transition: "opacity 0.2s ease",
+      }}
+      aria-hidden={!isOpen}
+    >
       {/* Backdrop flouté */}
       <div
         className="absolute inset-0 bg-[#131316]/80 backdrop-blur-md"
@@ -53,14 +73,16 @@ export default function IClosedPopup() {
         Le calendrier peut prendre quelques secondes à s&apos;afficher
       </p>
 
-      {/* iClosed iframe */}
-      <iframe
-        src="https://app.iclosed.io/e/fit-mass-formation/fmcs-candidature-i"
-        title="FMCS - Candidature"
-        className="relative z-10 w-full"
-        style={{ height: "90vh", border: "none" }}
-        allow="camera; microphone"
-      />
+      {iframeMounted && (
+        <iframe
+          src="https://app.iclosed.io/e/fit-mass-formation/fmcs-candidature-i"
+          title="FMCS - Candidature"
+          className="relative z-10 w-full"
+          style={{ height: "90vh", border: "none" }}
+          allow="camera; microphone"
+          loading="eager"
+        />
+      )}
     </div>
   );
 }
