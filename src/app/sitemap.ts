@@ -1,32 +1,25 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://fitmass.school";
+  const lastModified = new Date();
 
   return [
     {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
+      url: SITE_URL,
+      lastModified,
     },
     {
-      url: `${baseUrl}/mentions-legales`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
+      url: `${SITE_URL}/mentions-legales`,
+      lastModified,
     },
     {
-      url: `${baseUrl}/conditions-generales-de-ventes`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
+      url: `${SITE_URL}/conditions-generales-de-ventes`,
+      lastModified,
     },
     {
-      url: `${baseUrl}/politique-de-confidentialite`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
+      url: `${SITE_URL}/politique-de-confidentialite`,
+      lastModified,
     },
   ];
 }
