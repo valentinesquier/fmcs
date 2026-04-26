@@ -55,7 +55,7 @@ export default function Comparison() {
           style={{ boxShadow: "0 1px 3px rgba(0,0,0,0.04)" }}
         >
           {/* Header */}
-          <div className="grid grid-cols-[1fr_140px_140px] sm:grid-cols-[1fr_180px_180px] border-b border-[#e5e5e5]">
+          <div className="grid grid-cols-[minmax(0,1fr)_90px_90px] sm:grid-cols-[1fr_180px_180px] border-b border-[#e5e5e5]">
             <div className="p-4 sm:p-5" />
             <div className="p-4 sm:p-5 text-center border-l border-[#e5e5e5] bg-[#e5b80b]/5">
               <Image
@@ -77,7 +77,7 @@ export default function Comparison() {
           {ROWS.map((row, i) => (
             <div
               key={row.label}
-              className={`grid grid-cols-[1fr_140px_140px] sm:grid-cols-[1fr_180px_180px] ${
+              className={`grid grid-cols-[minmax(0,1fr)_90px_90px] sm:grid-cols-[1fr_180px_180px] ${
                 i < ROWS.length - 1 ? "border-b border-[#f0f0f0]" : ""
               }`}
             >
@@ -110,7 +110,7 @@ export default function Comparison() {
           ))}
 
           {/* Prix — dernière ligne mise en avant */}
-          <div className="grid grid-cols-[1fr_140px_140px] sm:grid-cols-[1fr_180px_180px] bg-[#131316]">
+          <div className="grid grid-cols-[minmax(0,1fr)_90px_90px] sm:grid-cols-[1fr_180px_180px] bg-[#131316]">
             <div className="p-4 sm:p-5 text-[0.9375rem] font-700 text-white">
               💰 Prix
             </div>
