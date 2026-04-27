@@ -56,18 +56,58 @@ export default function JsonLd() {
     ],
   };
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${SITE_URL}/#nassim-sahili`,
+    name: "Nassim Sahili",
+    jobTitle: "Fondateur FMCS, coach diplômé",
+    description:
+      "Fondateur de FMCS (Fitmass Coaching School) et de Coalition Nutrition. Coach diplômé depuis 2011, créateur de la chaîne YouTube Fitmass (1,2M+ abonnés), propriétaire de deux salles de sport.",
+    image: `${SITE_URL}/images/nassim-fmcs.gif`,
+    worksFor: { "@id": `${SITE_URL}/#organization` },
+    knowsAbout: [
+      "Musculation",
+      "Nutrition sportive",
+      "Coaching sportif",
+      "Programmation d'entraînement",
+      "Business du coaching",
+    ],
+    sameAs: [
+      "https://www.youtube.com/@FITMASS-COACHING",
+      "https://www.instagram.com/fitmass.school/",
+      "https://fr.linkedin.com/in/nassim-sahili-b3217a201",
+    ],
+  };
+
   const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "EducationalOrganization"],
+    "@id": `${SITE_URL}/#organization`,
     name: "FMCS - Fitmass Coaching School",
+    legalName: "Fit-Mass Formations",
     url: SITE_URL,
-    logo: `${SITE_URL}/images/favicon.png`,
-    founder: {
-      "@type": "Person",
-      name: "Nassim Sahili",
+    logo: `${SITE_URL}/images/logo-fmcs.png`,
+    image: `${SITE_URL}/images/fmcs-hero.jpeg`,
+    email: "contact@fitmass.school",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "45 Quai Dr Gailleton",
+      postalCode: "69002",
+      addressLocality: "Lyon",
+      addressRegion: "Auvergne-Rhône-Alpes",
+      addressCountry: "FR",
     },
+    founder: { "@id": `${SITE_URL}/#nassim-sahili` },
     description:
       "L'école en ligne la plus complète pour maîtriser le coaching en musculation, trouver des clients et vivre de sa passion en 6 mois.",
+    sameAs: [
+      "https://www.youtube.com/@FITMASS-COACHING",
+      "https://www.instagram.com/fitmass.school/",
+      "https://fr.trustpilot.com/review/fitmass.school",
+      "https://www.coalition-nutrition.com",
+      "https://fitmass.fr",
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.2",
@@ -80,17 +120,15 @@ export default function JsonLd() {
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
+    "@id": `${SITE_URL}/#course`,
     name: "FMCS - Formation Coaching Musculation",
     description:
       "Formation en ligne de 6 mois pour devenir coach en musculation. 5 piliers : anatomie, nutrition, programmation, suivi client, business.",
-    provider: {
-      "@type": "Organization",
-      name: "FMCS - Fitmass Coaching School",
-      url: SITE_URL,
-    },
+    url: SITE_URL,
+    image: `${SITE_URL}/images/fmcs-hero.jpeg`,
+    provider: { "@id": `${SITE_URL}/#organization` },
     educationalLevel: "Tous niveaux",
     inLanguage: "fr",
-    duration: "P6M",
     teaches: [
       "Anatomie et physiologie",
       "Nutrition sportive",
@@ -98,6 +136,16 @@ export default function JsonLd() {
       "Suivi et accompagnement client",
       "Business et développement d'activité",
     ],
+    hasCourseInstance: {
+      "@type": "CourseInstance",
+      courseMode: "Online",
+      courseWorkload: "P6M",
+      inLanguage: "fr",
+      location: {
+        "@type": "VirtualLocation",
+        url: SITE_URL,
+      },
+    },
   };
 
   return (
@@ -105,6 +153,10 @@ export default function JsonLd() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
       <script
         type="application/ld+json"
