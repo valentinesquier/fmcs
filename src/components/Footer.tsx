@@ -22,7 +22,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex gap-16">
+          <div className="flex flex-wrap gap-16">
             <div className="flex flex-col gap-3">
               <p className="text-[0.75rem] text-[#888] font-500 uppercase tracking-[0.05em] mb-1">
                 Formation
@@ -31,6 +31,13 @@ export default function Footer() {
               <a href="#formateurs" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Formateurs</a>
               <a href="#temoignages" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Témoignages</a>
               <a href="#faq" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">FAQ</a>
+            </div>
+            <div className="flex flex-col gap-3">
+              <p className="text-[0.75rem] text-[#888] font-500 uppercase tracking-[0.05em] mb-1">
+                Notre écosystème
+              </p>
+              <a href="https://www.coalition-nutrition.com" target="_blank" rel="noopener" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Coalition Nutrition</a>
+              <a href="https://fitmass.fr" target="_blank" rel="noopener" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Fitmass</a>
             </div>
             <div className="flex flex-col gap-3">
               <p className="text-[0.75rem] text-[#888] font-500 uppercase tracking-[0.05em] mb-1">
