@@ -53,6 +53,29 @@ export default function IClosedReveal({
     return () => clearTimeout(timeout);
   }, [revealed]);
 
+  // Quand le bloc iClosed apparait : intercepte les `scrollIntoView`
+  // que l'iframe envoie quand elle grandit (sinon widget.js scroll
+  // l'user en bas de page à chaque step).
+  useEffect(() => {
+    if (!revealed) return;
+    if (typeof window === "undefined") return;
+    const ICLOSED_ORIGINS = [
+      "https://app.iclosed.io",
+      "https://stage.iclosed.io",
+      "https://dev.iclosed.io",
+    ];
+    const blockAutoScroll = (event: MessageEvent) => {
+      if (!ICLOSED_ORIGINS.includes(event.origin)) return;
+      if (event?.data?.type === "scrollIntoView") {
+        event.stopImmediatePropagation();
+      }
+    };
+    window.addEventListener("message", blockAutoScroll);
+    return () => {
+      window.removeEventListener("message", blockAutoScroll);
+    };
+  }, [revealed]);
+
   if (revealed) {
     return (
       <div id="rdv" className="mt-10 scroll-mt-20 -mx-6 md:mx-0">
@@ -107,13 +130,11 @@ export default function IClosedReveal({
             👇🏼 Il te suffit de choisir un créneau juste ici 👇🏼
           </p>
 
-          <iframe
-            src={url}
-            title={title}
-            scrolling="no"
-            loading="eager"
-            className="w-full h-[1100px] md:h-[680px] border-0 block"
-            allow="camera; microphone"
+          <div
+            className="iclosed-widget w-full"
+            data-url={url}
+            data-title={title}
+            style={{ width: "100%" }}
           />
         </div>
       </div>

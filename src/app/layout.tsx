@@ -94,6 +94,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://app.iclosed.io" />
         <link rel="dns-prefetch" href="https://app.iclosed.io" />
+        <script type="text/javascript" src="https://app.iclosed.io/assets/widget.js" async />
       </head>
       <body className="min-h-full flex flex-col">
         <JsonLd />
