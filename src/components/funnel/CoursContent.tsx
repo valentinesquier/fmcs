@@ -17,18 +17,50 @@ export default function CoursContent({
       <main className="flex-1 marble-bg">
         <section className="py-6 md:py-10">
           <div className="mx-auto max-w-[860px] px-6 text-center">
-            <div
-              className="inline-flex items-center gap-2 bg-[#131316] text-white rounded-full px-5 py-2 text-[0.8125rem] font-800 uppercase tracking-[0.08em] mx-auto w-fit mb-5"
-              style={{
-                boxShadow:
-                  "0 0 0 1px rgba(229,184,11,0.35), 0 4px 16px rgba(229,184,11,0.4), 0 8px 32px rgba(229,184,11,0.25)",
-              }}
-            >
-              <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#ef4444] opacity-75" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-[#ef4444]" />
-              </span>
-              Nouvelle masterclass exclusive
+            <div className="mb-5 flex flex-col items-center gap-2">
+              <div
+                className="inline-flex items-center gap-3 rounded-2xl border border-[#e5b80b]/30 bg-white px-4 py-2.5"
+                style={{
+                  boxShadow:
+                    "0 0 0 1px rgba(229,184,11,0.2), 0 0 40px rgba(229,184,11,0.45), 0 0 80px rgba(229,184,11,0.25)",
+                }}
+              >
+                <div className="relative shrink-0">
+                  <div className="relative h-10 w-10 overflow-hidden rounded-full border-2 border-[#e5e5e5]">
+                    <Image
+                      src="/images/nassim-sahili-ytb.webp"
+                      alt="Nassim Sahili"
+                      fill
+                      className="object-cover"
+                      sizes="40px"
+                    />
+                  </div>
+                  <span
+                    className="absolute -bottom-0.5 -right-0.5 flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#0066FF] ring-2 ring-white"
+                    aria-label="Compte certifié"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      className="h-2.5 w-2.5 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="3.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12l5 5L20 7" />
+                    </svg>
+                  </span>
+                </div>
+                <div className="flex flex-col items-start text-left">
+                  <span className="text-[0.8125rem] font-bold tracking-tight text-[#131316] md:text-[0.875rem]">
+                    Masterclass de Nassim Sahili
+                  </span>
+                  <span className="text-[0.75rem] tracking-tight text-[#555] md:text-[0.8125rem]">
+                    Coach à +1 million d&apos;abonnés sur YouTube
+                  </span>
+                </div>
+              </div>
             </div>
 
             <h1 className="text-[clamp(2rem,5vw,2.75rem)] font-700 leading-[1.15] tracking-[-0.02em] mb-3">
@@ -58,28 +90,10 @@ export default function CoursContent({
               ))}
             </ul>
 
-            <p className="text-[1.125rem] md:text-[0.9375rem] font-500 text-[#131316] leading-[1.35] max-w-[360px] md:max-w-[320px] mx-auto mb-2 text-center">
-              Masterclass de Nassim Sahili,
-              <br />
-              Coach à{" "}
-              <span
-                style={{
-                  background:
-                    "linear-gradient(180deg, transparent 55%, #fde047 55%)",
-                  padding: "0 4px",
-                  boxDecorationBreak: "clone",
-                  WebkitBoxDecorationBreak: "clone",
-                }}
-              >
-                +1 million d&apos;abonnés
-              </span>{" "}
-              sur YouTube
-            </p>
-
             <a
               href="#capture"
               aria-label="Accéder à la masterclass"
-              className="glass-card aspect-[16/9] overflow-hidden relative max-w-[520px] mx-auto mb-4 block cursor-pointer transition-transform hover:scale-[1.01]"
+              className="glass-card aspect-[16/9] overflow-hidden relative max-w-[520px] mx-auto mb-4 mt-4 block cursor-pointer transition-transform hover:scale-[1.01]"
             >
               <Image
                 src="/images/nassim-fmcs.gif"

@@ -126,7 +126,7 @@ export default function FunnelSocialNotif() {
             </span>
           </p>
           <p className="text-[0.75rem] text-[#10b981] font-500 leading-tight mt-0.5">
-            vient de s&apos;inscrire
+            vient d&apos;accéder à la masterclass
           </p>
         </div>
       </div>
