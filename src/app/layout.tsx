@@ -21,7 +21,7 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "FMCS | Fitmass Coaching School | Deviens coach en musculation",
   description:
-    "L'école en ligne la plus complète pour maîtriser le coaching en musculation, trouver des clients et vivre de ta passion en 6 mois. +4000 coachs formés. 4.2/5 Trustpilot.",
+    "Devenez coach en musculation en 6 mois. Anatomie, nutrition, programmation, business : la formation en ligne la plus complète. +4000 coachs formés.",
   keywords: [
     "formation coaching musculation",
     "devenir coach sportif",

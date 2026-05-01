@@ -33,7 +33,7 @@ const PILLARS = [
       "Système nerveux et recrutement des fibres",
       "Tensions d'étirement et de contraction",
     ],
-    result: "Tu peux expliquer pourquoi tu prescris tel exercice plutôt qu'un autre. Ton client te fait confiance parce qu'il comprend pourquoi.",
+    result: "Vous pouvez expliquer pourquoi vous prescrivez tel exercice plutôt qu'un autre. Votre client vous fait confiance parce qu'il comprend pourquoi.",
   },
   {
     num: "02",
@@ -46,20 +46,20 @@ const PILLARS = [
       "Pathologies : obésité, diabète, cardio",
       "Sommeil, stress, compléments alimentaires",
     ],
-    result: "Tu réponds à des questions que la majorité des coachs diplômés ne savent pas traiter.",
+    result: "Vous réponds à des questions que la majorité des coachs diplômés ne savent pas traiter.",
   },
   {
     num: "03",
     title: "Programmation",
     icon: Barbell,
-    summary: "Crée des entraînements qui transforment vraiment tes clients.",
+    summary: "Crée des entraînements qui transforment vraiment vos clients.",
     details: [
       "Périodisation linéaire, ondulante et par blocs",
       "Volume, intensité, fréquence et surcompensation",
       "Déséquilibres musculaires et asymétries",
       "Préparation compétition et méthodes avancées",
     ],
-    result: "Aucun profil ne te dépasse. Débutant, sportif confirmé, client blessé, compétiteur.",
+    result: "Aucun profil ne vous dépasse. Débutant, sportif confirmé, client blessé, compétiteur.",
   },
   {
     num: "04",
@@ -72,33 +72,33 @@ const PILLARS = [
       "5 profils psychologiques clients",
       "Outils de motivation sur la durée",
     ],
-    result: "Un client suivi avec ce niveau d'attention ne part pas. Il reste. Il progresse. Il te recommande.",
+    result: "Un client suivi avec ce niveau d'attention ne part pas. Il reste. Il progresse. Il vous recommande.",
   },
   {
     num: "05",
     title: "Réseau & Business",
     icon: Briefcase,
-    summary: "Le pilier qu'aucune école ne t'enseigne vraiment.",
+    summary: "Le pilier qu'aucune école ne vous enseigne vraiment.",
     details: [
-      "5 étapes pour trouver tes premiers clients",
-      "Fixer tes tarifs sans te brader",
+      "5 étapes pour trouver vos premiers clients",
+      "Fixer vos tarifs sans vous brader",
       "Réseaux sociaux comme levier business",
       "Auto-entreprise sans erreurs administratives",
     ],
-    result: "Tu sors avec les compétences et le plan d'action. Pas juste un certificat et de la bonne volonté.",
+    result: "Vous sortez avec les compétences et le plan d'action. Pas juste un certificat et de la bonne volonté.",
   },
   {
     num: "06",
     title: "Bonus",
     icon: Gift,
-    summary: "Le programme d'accompagnement qui transforme tes compétences en activité rentable.",
+    summary: "Le programme d'accompagnement qui transforme vos compétences en activité rentable.",
     details: [
       "Plan de lancement pas-à-pas en 6 étapes",
       "Accompagnement vers la carte professionnelle (CQP)",
       "Module auto-entreprise : statut, assurance, facturation",
       "Communauté privée + accès aux événements FMCS",
     ],
-    result: "Tu ne sors pas juste avec des connaissances. Tu sors avec un business prêt à tourner dès le premier jour.",
+    result: "Vous ne sors pas juste avec des connaissances. Vous sortez avec un business prêt à tourner dès le premier jour.",
     featured: true,
   },
 ];
@@ -106,11 +106,11 @@ const PILLARS = [
 const FEATURES = [
   { icon: Video, title: "Vidéos HD & supports", description: "5 piliers de formation en vidéos, notes et sources scientifiques.", image: "/images/formation.jpg", alt: "Cours vidéo FMCS" },
   { icon: ChatCircle, title: "Communauté privée", description: "Des centaines de coachs qui avancent dans la même direction.", image: "/images/communaute.png", alt: "Communauté FMCS" },
-  { icon: UserCircle, title: "Espace membre", description: "Ton espace pour suivre ta progression et passer ton examen.", image: "/images/espace-membre.jpg", alt: "Espace membre FMCS" },
+  { icon: UserCircle, title: "Espace membre", description: "Votre espace pour suivre votre progression et passer votre examen.", image: "/images/espace-membre.jpg", alt: "Espace membre FMCS" },
 ];
 
 const TEAM = [
-  { name: "Nassim", role: "Éducateur sportif & Formateur", highlights: ["Depuis 2006", "YouTubeur", "Gérant de salle"], bio: "Pratiquant, prof de fitness, coach sportif, gérant de salle, YouTubeur. Le sport c'est plus qu'un métier, c'est une vocation. Formateur officieux depuis 2014 sur YouTube, il lance la FMCS pour former les meilleurs coachs du marché.", featured: true, photo: "/images/nassim.png" },
+  { name: "Nassim", role: "Éducateur sportif & Formateur", highlights: ["Depuis 2006", "YouTubeur", "Gérant de salle"], bio: "Pratiquant, prof de fitness, coach sportif, gérant de salle, YouTubeur. Le sport est sa vocation depuis toujours. Formateur officieux depuis 2014 sur YouTube, il lance la FMCS pour former les meilleurs coachs du marché.", featured: true, photo: "/images/nassim.png" },
   { name: "Harry", role: "Éducateur sportif & Formateur", highlights: ["Cursus STAPS", "Multi-sport", "Muscle Academy"], bio: "Passé par le cursus STAPS, Harry a trouvé sa vocation dans le coaching et l'accompagnement client. Il assiste Nassim sur les stages Muscle Academy. Son approche multi-sport en fait un atout de taille dans l'équipe.", featured: false, photo: "/images/harry.png" },
   { name: "Cédric", role: "Éducateur sportif & Formateur", highlights: ["Programmation", "Science du sport", "3 ans avec Nassim"], bio: "La programmation d'entraînement n'a plus aucun secret pour lui. Ce qui l'attire : manipuler toutes les variables de l'entraînement pour créer les programmes les mieux adaptés. Résultat ? Des clients satisfaits.", featured: false, photo: "/images/cedric.png" },
   { name: "Damien", role: "Diététicien & Formateur", highlights: ["Diététicien diplômé", "Expert nutrition", "Musculation intelligente"], bio: "Sa mission : apporter son expertise en diététique et vous former à devenir de meilleurs coachs. Il associe ses connaissances en diététique à une pratique intelligente de la musculation.", featured: false, photo: "/images/damien.png" },
@@ -211,7 +211,7 @@ export default function Pillars() {
                 </h2>
 
                 <p className="text-[1.125rem] sm:text-[1.25rem] text-white/70 leading-[1.6] max-w-[560px] mx-auto">
-                  La seule formation qui t&apos;accompagne vraiment
+                  La seule formation qui vous accompagne vraiment
                   pour vivre du coaching en musculation.
                 </p>
               </div>
@@ -324,10 +324,10 @@ export default function Pillars() {
             <span className="text-[1.125rem] font-700 text-[#131316]">La plateforme</span>
           </div>
           <h3 className="text-[clamp(1.5rem,3vw,2.25rem)] font-700 tracking-[-0.02em] mb-4">
-            Tout est pensé pour ta réussite.
+            Tout est pensé pour votre réussite.
           </h3>
           <p className="text-[1.125rem] text-[#555] leading-[1.5] mb-10 max-w-[680px]">
-            100% en ligne, à ton rythme. 3h par semaine suffisent pour suivre le programme en 6 mois.
+            100% en ligne, à votre rythme. 3h par semaine suffisent pour suivre le programme en 6 mois.
           </p>
 
           <PlatformCards inView={inView} />
@@ -340,7 +340,7 @@ export default function Pillars() {
             <span className="text-[1.125rem] font-700 text-[#131316]">L&apos;équipe</span>
           </div>
           <h3 className="text-[clamp(1.5rem,3vw,2.25rem)] font-700 tracking-[-0.02em] mb-4">
-            Les experts qui vont t&apos;accompagner.
+            Les experts qui vont vous accompagner.
           </h3>
           <p className="text-[1.125rem] text-[#555] leading-[1.5] mb-10 max-w-[680px]">
             Des formateurs qui exercent sur le terrain, pas des théoriciens derrière un bureau.

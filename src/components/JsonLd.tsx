@@ -10,7 +10,7 @@ export default function JsonLd() {
         name: "BPJEPS, STAPS, CQP ou FMCS : lequel choisir ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "La carte professionnelle est obligatoire pour exercer en salle, club ou association. La FMCS t'accompagne directement vers le CQP, la voie la plus rapide et la moins chère pour décrocher ta carte pro.",
+          text: "La carte professionnelle est obligatoire pour exercer en salle, club ou association. La FMCS vous accompagne directement vers le CQP, la voie la plus rapide et la moins chère pour décrocher votre carte pro.",
         },
       },
       {
@@ -34,7 +34,7 @@ export default function JsonLd() {
         name: "Le certificat FMCS est-il reconnu par l'État ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Non. Pour exercer légalement en salle, il te faudra un diplôme d'État. La FMCS ne remplace pas cette démarche, elle la complète. On t'accompagne vers le CQP.",
+          text: "Non. Pour exercer légalement en salle, il vous faudra un diplôme d'État. La FMCS ne remplace pas cette démarche, elle la complète. On vous accompagne vers le CQP.",
         },
       },
       {
@@ -42,7 +42,7 @@ export default function JsonLd() {
         name: "Comment se passe l'examen final ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "L'examen valide tes connaissances. Tu reçois ton certificat FMCS signé par Nassim, avec la possibilité d'accéder à la carte pro.",
+          text: "L'examen valide vos connaissances. Vous recevez votre certificat FMCS signé par Nassim, avec la possibilité d'accéder à la carte pro.",
         },
       },
       {

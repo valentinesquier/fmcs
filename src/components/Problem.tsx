@@ -23,7 +23,7 @@ const PAIN_POINTS = [
   {
     icon: CurrencyEur,
     stat: "8 000€",
-    text: "dépensés pour une formation qui ne t'apprend ni la nutrition avancée, ni le business.",
+    text: "dépensés pour une formation qui ne vous apprend ni la nutrition avancée, ni le business.",
     source: "Ministère des Sports, tarifs BPJEPS",
   },
   {
@@ -143,7 +143,7 @@ export default function Problem() {
           className="mb-12"
         >
           <h2 className="text-[clamp(1.75rem,4vw,2.75rem)] font-700 leading-[1.15] tracking-[-0.02em]">
-            Le système traditionnel ne te prépare pas à vivre du coaching.
+            Le système traditionnel ne vous prépare pas à vivre du coaching.
           </h2>
         </motion.div>
 
@@ -167,8 +167,8 @@ export default function Problem() {
           </p>
 
           <p className="text-[1.0625rem] text-[#555] leading-[1.8]">
-            C&apos;est étonnant quand on sait que le marché est loin d&apos;être
-            saturé.
+            C&apos;est étonnant quand on sait que le marché reste largement
+            ouvert et en croissance.
           </p>
 
           {/* Schéma marché */}
@@ -218,26 +218,25 @@ export default function Problem() {
 
           <p className="text-[1.0625rem] text-[#555] leading-[1.8]">
             Le problème est ailleurs. Entre vouloir devenir coach et en vivre
-            vraiment, il y a un fossé que personne ne t&apos;apprend à franchir.
+            vraiment, il y a un fossé que personne ne vous apprend à franchir.
           </p>
 
           <p className="text-[1.0625rem] text-[#555] leading-[1.8]">
-            Peut-être que tu passes tes journées dans un boulot qui ne te
-            ressemble pas, en te disant que le coaching c&apos;est pour bientôt.
-            Peut-être que tu coaches déjà, mais cette insécurité sur certains
+            Peut-être que vous passez vos journées dans un boulot qui ne vous
+            ressemble pas, en vous disant que le coaching c&apos;est pour bientôt.
+            Peut-être que vous coachez déjà, mais cette insécurité sur certains
             sujets, cette impression de ne jamais en savoir assez, elle est
-            toujours là. Dans les deux cas, ce n&apos;est pas un problème de
-            motivation.
+            toujours là. La cause vient d&apos;ailleurs.
           </p>
 
           <div className="relative rounded-[20px] border border-[#e5e5e5] bg-[#f8f7f4] p-8 sm:p-12 text-center overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#131316] to-transparent" />
             <p className="text-[1.25rem] sm:text-[1.5rem] text-[#888] font-500 mb-2">
-              Le vrai problème
+              Diagnostic
             </p>
             <p className="text-[2rem] sm:text-[2.5rem] font-700 text-[#131316] tracking-[-0.03em]">
-              C&apos;est la{" "}
-              <span className="text-[#e5b80b]">formation.</span>
+              Une{" "}
+              <span className="text-[#e5b80b]">formation incomplète.</span>
             </p>
           </div>
         </motion.div>

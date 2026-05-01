@@ -39,7 +39,7 @@ export default function FinalCTA() {
               </h2>
               <p className="text-[1.125rem] text-[#ffffffba] leading-[1.5] mb-10 max-w-[520px] mx-auto">
                 Réserve un appel découverte gratuit avec notre équipe. On répond
-                à toutes tes questions et on t&apos;aide à définir ton plan.
+                à toutes vos questions et on vous aide à définir votre plan.
               </p>
 
               {/* RED CTA */}
