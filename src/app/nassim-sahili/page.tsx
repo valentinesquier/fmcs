@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Nassim Sahili — Fondateur de FMCS, coach diplômé depuis 2011",
   description:
-    "Parcours, expertise et vision de Nassim Sahili : coach diplômé depuis 2011, créateur de la chaîne YouTube Fitmass (1,2M+ abonnés), fondateur de FMCS et de Coalition Nutrition.",
+    "Bio de Nassim Sahili : coach diplômé depuis 2011, créateur de Fitmass (1,2M+ abonnés YouTube), fondateur de FMCS et Coalition Nutrition.",
   alternates: { canonical: `${SITE_URL}/nassim-sahili` },
   openGraph: {
     title: "Nassim Sahili — Fondateur de FMCS",
@@ -148,10 +148,39 @@ export default function NassimSahiliPage() {
             vraiment, pas ce qui se trouve dans les manuels.
           </p>
           <p>
-            Il est aujourd&apos;hui propriétaire de deux salles de sport
-            [<em>noms et adresses à compléter</em>] et continue d&apos;y coacher
-            régulièrement.
+            Il est aujourd&apos;hui propriétaire de deux salles de sport à
+            Lyon et continue d&apos;y coacher régulièrement :
           </p>
+          <ul>
+            <li>
+              <strong>Gym Nass</strong> —{" "}
+              <a
+                href="https://gymnass.fr"
+                target="_blank"
+                rel="noopener"
+              >
+                gymnass.fr
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://www.instagram.com/gym.nass/"
+                target="_blank"
+                rel="noopener"
+              >
+                @gym.nass
+              </a>
+            </li>
+            <li>
+              <strong>VO2Max Lyon</strong> —{" "}
+              <a
+                href="https://www.instagram.com/vo2max_lyon/"
+                target="_blank"
+                rel="noopener"
+              >
+                @vo2max_lyon
+              </a>
+            </li>
+          </ul>
 
           <h2>La chaîne YouTube Fitmass : pédagogie sans concession (depuis 2014)</h2>
           <p>
