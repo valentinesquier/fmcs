@@ -10,6 +10,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
     },
     {
+      url: `${SITE_URL}/nassim-sahili`,
+      lastModified,
+    },
+    {
       url: `${SITE_URL}/mentions-legales`,
       lastModified,
     },

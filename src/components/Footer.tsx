@@ -27,10 +27,11 @@ export default function Footer() {
               <p className="text-[0.75rem] text-[#888] font-500 uppercase tracking-[0.05em] mb-1">
                 Formation
               </p>
-              <a href="#programme" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Programme</a>
-              <a href="#formateurs" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Formateurs</a>
-              <a href="#temoignages" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Témoignages</a>
-              <a href="#faq" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">FAQ</a>
+              <a href="/#programme" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Programme</a>
+              <a href="/#formateurs" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Formateurs</a>
+              <a href="/nassim-sahili" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Nassim Sahili</a>
+              <a href="/#temoignages" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Témoignages</a>
+              <a href="/#faq" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">FAQ</a>
             </div>
             <div className="flex flex-col gap-3">
               <p className="text-[0.75rem] text-[#888] font-500 uppercase tracking-[0.05em] mb-1">
