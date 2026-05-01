@@ -30,6 +30,7 @@ export default function Footer() {
               <a href="/#programme" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Programme</a>
               <a href="/#formateurs" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Formateurs</a>
               <a href="/nassim-sahili" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Nassim Sahili</a>
+              <a href="/comparatif" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Comparatifs</a>
               <a href="/#temoignages" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">Témoignages</a>
               <a href="/#faq" className="text-[0.875rem] text-[#555] hover:text-[#131316] transition-colors">FAQ</a>
             </div>
