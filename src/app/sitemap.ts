@@ -14,6 +14,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
     },
     {
+      url: `${SITE_URL}/comparatif`,
+      lastModified,
+    },
+    {
+      url: `${SITE_URL}/comparatif/bpjeps`,
+      lastModified,
+    },
+    {
+      url: `${SITE_URL}/comparatif/staps`,
+      lastModified,
+    },
+    {
+      url: `${SITE_URL}/comparatif/cqp`,
+      lastModified,
+    },
+    {
       url: `${SITE_URL}/mentions-legales`,
       lastModified,
     },

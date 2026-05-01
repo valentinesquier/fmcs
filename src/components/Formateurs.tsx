@@ -29,10 +29,10 @@ const TEAM = [
     featured: false,
   },
   {
-    name: "Damien",
-    role: "Diététicien & Formateur",
-    highlights: ["Diététicien diplômé", "Expert nutrition", "Musculation intelligente"],
-    bio: "Sa mission : apporter son expertise en diététique et former des coachs capables de prodiguer des conseils nutritionnels de qualité.",
+    name: "Johanna",
+    role: "Diététicienne-nutritionniste du sport & Formatrice",
+    highlights: ["Diététicienne-nutritionniste", "Spécialiste nutrition du sport", "Musculation & sports d'endurance"],
+    bio: "Diététicienne-nutritionniste spécialisée en nutrition du sport. En charge du volet nutrition appliquée à la musculation pour les élèves FMCS.",
     featured: false,
   },
 ];

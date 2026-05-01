@@ -268,8 +268,9 @@ export default function NassimSahiliPage() {
               des modules de planification avancée.
             </li>
             <li>
-              <strong>Damien</strong> — diététicien diplômé, en charge de
-              tout le volet nutrition appliquée à la musculation.
+              <strong>Johanna</strong> — diététicienne-nutritionniste du
+              sport, en charge de tout le volet nutrition appliquée à la
+              musculation et aux sports d&apos;endurance.
             </li>
           </ul>
 
