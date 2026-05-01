@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "FMCS vs STAPS : laquelle choisir pour vivre du coaching sportif ?",
   description:
-    "Comparatif détaillé FMCS vs Licence STAPS : durée (6 mois vs 3 ans), coût, contenu, débouchés. Et si vous avez déjà la Licence STAPS, devez-vous suivre la FMCS en plus ?",
+    "FMCS vs Licence STAPS : comparatif détaillé. 6 mois vs 3 ans, en ligne vs présentiel, formation pro vs académique. Quelle voie pour vivre du coaching ?",
   alternates: { canonical: `${SITE_URL}/comparatif/staps` },
   openGraph: {
     title: "FMCS vs STAPS : le comparatif détaillé",
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "Combien coûte la Licence STAPS ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "À l'université publique, environ 175€ par an de frais d'inscription + CVEC (~100€). Sur 3 ans, environ 825€. À cela s'ajoutent les frais de vie étudiante (logement, transport, etc.). En grande école ou STAPS privée, les coûts sont nettement plus élevés.",
+        text: "Le coût de la Licence STAPS dépend du type d'établissement : très modique à l'université publique (frais d'inscription universitaires), nettement plus élevé en STAPS privée. À cela s'ajoutent les frais de vie étudiante (logement, transport, etc.) sur 3 ans.",
       },
     },
     {
@@ -152,8 +152,9 @@ export default function ComparatifSTAPSPage() {
               2 ans de Master (Bac+5) pour des débouchés étendus
             </li>
             <li>
-              <strong>Coût</strong> : à l&apos;université publique, environ
-              175€/an + CVEC. En STAPS privée, plusieurs milliers d&apos;€/an
+              <strong>Coût</strong> : variable — frais universitaires
+              modiques en université publique, nettement plus élevés en
+              STAPS privée
             </li>
             <li>
               <strong>Format</strong> : présentiel obligatoire à
@@ -221,8 +222,8 @@ export default function ComparatifSTAPSPage() {
                   <td>6 mois</td>
                 </tr>
                 <tr>
-                  <td>Coût total</td>
-                  <td>~825€ (université publique) à plusieurs k€ (privé)</td>
+                  <td>Coût</td>
+                  <td>Variable selon université publique ou privée</td>
                   <td>Révélé en appel</td>
                 </tr>
                 <tr>
@@ -339,10 +340,11 @@ export default function ComparatifSTAPSPage() {
 
           <h3>Combien coûte la Licence STAPS ?</h3>
           <p>
-            À l&apos;université publique, environ 175€ par an de frais
-            d&apos;inscription + CVEC (~100€). Sur 3 ans, environ 825€. À
-            cela s&apos;ajoutent les frais de vie étudiante. En grande
-            école ou STAPS privée, les coûts sont nettement plus élevés.
+            Le coût dépend du type d&apos;établissement : très modique à
+            l&apos;université publique (frais d&apos;inscription
+            universitaires), nettement plus élevé en STAPS privée. À cela
+            s&apos;ajoutent les frais de vie étudiante (logement,
+            transport, etc.) sur 3 ans.
           </p>
 
           <h3>STAPS ou FMCS si je veux vite vivre du coaching ?</h3>

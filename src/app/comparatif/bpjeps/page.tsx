@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "FMCS vs BPJEPS AF : laquelle choisir pour devenir coach sportif ?",
   description:
-    "Comparatif détaillé FMCS vs BPJEPS AF : durée, coût, contenu, débouchés. Laquelle choisir si vous débutez ? Et si vous avez déjà le BPJEPS, devez-vous faire la FMCS en plus ?",
+    "FMCS vs BPJEPS AF : comparatif détaillé. Durée, coût (8 000€ en moyenne), contenu, débouchés. Et si vous avez déjà le BPJEPS, devez-vous faire la FMCS ?",
   alternates: { canonical: `${SITE_URL}/comparatif/bpjeps` },
   openGraph: {
     title: "FMCS vs BPJEPS AF : le comparatif détaillé",
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "Vaut-il mieux faire BPJEPS ou FMCS + CQP ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Si vous n'avez aucun diplôme, la combinaison FMCS + CQP IF est généralement plus efficace : moins chère, plus rapide, et la FMCS apporte un socle de compétences plus complet que le BPJEPS sur la nutrition, la programmation et le business.",
+        text: "Si vous n'avez aucun diplôme, la combinaison FMCS + CQP IF est généralement plus efficace : moins chère (3 500€ pour le CQP en moyenne contre 8 000€ pour le BPJEPS), plus rapide, et la FMCS apporte un socle de compétences plus complet que le BPJEPS sur la nutrition, la programmation et le business.",
       },
     },
     {
@@ -152,8 +152,8 @@ export default function ComparatifBPJEPSPage() {
               sur 9 à 12 mois), avec stages en entreprise obligatoires
             </li>
             <li>
-              <strong>Coût</strong> : 5 000 à 10 000€ selon le centre
-              (financement CPF, Pôle Emploi, OPCO possibles)
+              <strong>Coût moyen</strong> : 8 000€ (financement CPF, Pôle
+              Emploi, OPCO possibles)
             </li>
             <li>
               <strong>Format</strong> : présentiel principalement, dans un
@@ -225,8 +225,8 @@ export default function ComparatifBPJEPSPage() {
                   <td>6 mois</td>
                 </tr>
                 <tr>
-                  <td>Coût</td>
-                  <td>5 000-10 000€</td>
+                  <td>Coût moyen</td>
+                  <td>8 000€</td>
                   <td>Révélé en appel</td>
                 </tr>
                 <tr>
@@ -311,9 +311,9 @@ export default function ComparatifBPJEPSPage() {
           </p>
           <p>
             La FMCS s&apos;ajoute à votre BPJEPS. Elle ne le remplace pas.
-            85 % des coachs diplômés quittent la profession dans les 5 ans —
-            l&apos;écart de compétences avec la réalité du métier en est la
-            cause principale.
+            L&apos;écart entre ce qu&apos;enseigne le BPJEPS et la réalité du
+            métier de coach indépendant est la principale cause des
+            décrochages observés en début de carrière.
           </p>
 
           <h3>Vous êtes en CDI et envisagez la reconversion</h3>
