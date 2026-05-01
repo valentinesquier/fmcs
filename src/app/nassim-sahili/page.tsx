@@ -213,9 +213,8 @@ export default function NassimSahiliPage() {
           </p>
           <p>
             Quatre ans plus tard, FMCS a formé{" "}
-            <strong>plus de 4 000 coachs</strong> en France, avec une note
-            Trustpilot de <strong>4,2/5</strong> et un taux de satisfaction
-            étudiants de <strong>98 %</strong>.
+            <strong>plus de 4 000 coachs</strong> en France, avec un taux de
+            satisfaction étudiants de <strong>98 %</strong>.
           </p>
 
           <h2>2023 : Coalition Nutrition</h2>
@@ -311,8 +310,7 @@ export default function NassimSahiliPage() {
               </a>
             </li>
             <li>
-              Newsletter Fitmass &laquo; Lundi 7h &raquo; (hebdomadaire,
-              gratuite) — disponible sur{" "}
+              Site média Fitmass :{" "}
               <a href="https://fitmass.fr" target="_blank" rel="noopener">
                 fitmass.fr
               </a>

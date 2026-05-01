@@ -202,8 +202,8 @@ export default function ComparatifCQPPage() {
               et la moins chère)
             </li>
             <li>
-              <strong>Diplômés</strong> : 4 000+ coachs formés, 4,2/5 sur
-              Trustpilot
+              <strong>Diplômés</strong> : 4 000+ coachs formés (98 %
+              satisfaction)
             </li>
           </ul>
 
