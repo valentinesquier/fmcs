@@ -211,8 +211,8 @@ export default function ComparatifHubPage() {
               vers le CQP inclus
             </li>
             <li>
-              <strong>Diplômés</strong> : 4 000+ coachs formés, 4,2/5 sur
-              Trustpilot
+              <strong>Diplômés</strong> : 4 000+ coachs formés (98 %
+              satisfaction)
             </li>
           </ul>
 
