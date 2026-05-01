@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "FMCS + CQP IF : la combinaison qu'on recommande pour devenir coach",
   description:
-    "Comparatif FMCS vs CQP IF — et pourquoi la combinaison FMCS + CQP est la voie la plus efficace si vous n'avez pas encore la carte professionnelle d'éducateur sportif.",
+    "FMCS + CQP IF : la combinaison qu'on recommande pour devenir coach sportif. CQP en moyenne 3 500€ pour la carte pro, FMCS pour le socle complet.",
   alternates: { canonical: `${SITE_URL}/comparatif/cqp` },
   openGraph: {
     title: "FMCS + CQP IF : la combinaison recommandée",
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "Combien coûte la combinaison FMCS + CQP IF ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Le CQP IF coûte 2 000 à 4 000€ selon le centre. Le tarif FMCS est révélé en appel découverte. Au total, c'est généralement moins cher qu'un BPJEPS seul, pour un socle de compétences plus complet.",
+        text: "Le CQP IF coûte 3 500€ en moyenne. Le tarif FMCS est révélé en appel découverte. Au total, c'est généralement moins cher qu'un BPJEPS seul (8 000€ en moyenne), pour un socle de compétences plus complet.",
       },
     },
     {
@@ -152,7 +152,7 @@ export default function ComparatifCQPPage() {
               <strong>Durée</strong> : ~250 à 400 heures (4-6 mois)
             </li>
             <li>
-              <strong>Coût</strong> : 2 000 à 4 000€ selon le centre
+              <strong>Coût moyen</strong> : 3 500€
             </li>
             <li>
               <strong>Format</strong> : présentiel + parfois e-learning
@@ -263,10 +263,10 @@ export default function ComparatifCQPPage() {
                   <td>10-12 mois (peuvent se chevaucher)</td>
                 </tr>
                 <tr>
-                  <td>Coût total</td>
-                  <td>2 000-4 000€</td>
+                  <td>Coût moyen</td>
+                  <td>3 500€</td>
                   <td>Sur appel</td>
-                  <td>FMCS + 2 000-4 000€ CQP</td>
+                  <td>FMCS + 3 500€ CQP</td>
                 </tr>
                 <tr>
                   <td>Format</td>
@@ -379,10 +379,10 @@ export default function ComparatifCQPPage() {
 
           <h3>Combien coûte la combinaison FMCS + CQP IF ?</h3>
           <p>
-            Le CQP IF coûte 2 000 à 4 000€ selon le centre. Le tarif FMCS
-            est révélé en appel découverte. Au total, c&apos;est
-            généralement moins cher qu&apos;un BPJEPS seul, pour un socle
-            plus complet.
+            Le CQP IF coûte 3 500€ en moyenne. Le tarif FMCS est révélé en
+            appel découverte. Au total, c&apos;est généralement moins cher
+            qu&apos;un BPJEPS seul (8 000€ en moyenne), pour un socle plus
+            complet.
           </p>
 
           <h3>Le CQP IF est-il reconnu partout ?</h3>

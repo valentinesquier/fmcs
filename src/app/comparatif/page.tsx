@@ -7,8 +7,8 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title:
     "BPJEPS, STAPS, CQP ou FMCS : quelle formation pour devenir coach sportif ?",
-  description:
-    "Comparatif des 4 voies pour devenir coach sportif en France : BPJEPS AF, Licence STAPS, CQP IF, FMCS. Durée, coût, débouchés, et la combinaison recommandée selon votre profil.",
+    description:
+    "BPJEPS, STAPS, CQP ou FMCS : comparatif des 4 voies pour devenir coach sportif. Durée, coût, débouchés, et la combinaison recommandée selon votre profil.",
   alternates: { canonical: `${SITE_URL}/comparatif` },
   openGraph: {
     title: "Quelle formation pour devenir coach sportif : BPJEPS, STAPS, CQP ou FMCS ?",
@@ -110,8 +110,8 @@ export default function ComparatifHubPage() {
               <strong>Durée</strong> : ~700 à 1 200 heures (9-12 mois)
             </li>
             <li>
-              <strong>Coût</strong> : 5 000 à 10 000€ selon centre
-              (financement CPF / Pôle Emploi possible)
+              <strong>Coût moyen</strong> : 8 000€ (financement CPF / Pôle
+              Emploi possible)
             </li>
             <li>
               <strong>Format</strong> : présentiel principalement
@@ -141,8 +141,8 @@ export default function ComparatifHubPage() {
               supplémentaires en Master
             </li>
             <li>
-              <strong>Coût</strong> : ~175€ par an de frais
-              d&apos;inscription universitaire (université publique) + CVEC
+              <strong>Coût</strong> : variable selon université publique
+              ou privée
             </li>
             <li>
               <strong>Format</strong> : présentiel obligatoire
@@ -171,7 +171,7 @@ export default function ComparatifHubPage() {
               <strong>Durée</strong> : ~250 à 400 heures (4-6 mois)
             </li>
             <li>
-              <strong>Coût</strong> : 2 000 à 4 000€ selon centre
+              <strong>Coût moyen</strong> : 3 500€
             </li>
             <li>
               <strong>Format</strong> : présentiel + parfois e-learning
@@ -264,10 +264,10 @@ export default function ComparatifHubPage() {
                   <td>6 mois</td>
                 </tr>
                 <tr>
-                  <td>Coût</td>
-                  <td>5 000-10 000€</td>
-                  <td>~175€/an</td>
-                  <td>2 000-4 000€</td>
+                  <td>Coût moyen</td>
+                  <td>8 000€</td>
+                  <td>Variable (université)</td>
+                  <td>3 500€</td>
                   <td>Sur appel</td>
                 </tr>
                 <tr>
@@ -304,7 +304,8 @@ export default function ComparatifHubPage() {
           <p className="text-[0.8125rem] text-[#888]">
             Sources : RNCP (France Compétences), Code du sport (Légifrance),
             documentation publique des centres de formation 2025-2026. Les
-            chiffres BPJEPS / CQP varient selon centre — fourchette indicative.
+            tarifs BPJEPS et CQP IF varient selon les centres — chiffres donnés
+            ici à titre indicatif (moyenne marché).
           </p>
 
           <h2>Discuter de votre situation</h2>
