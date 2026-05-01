@@ -41,19 +41,25 @@ export default function Hero({ vslId = "TTLI7ZsYSFTFuoJT" }: { vslId?: string })
 
               {/* Headline */}
               <h1
-                className="text-[1.75rem] sm:text-[2.25rem] lg:text-[2.75rem] font-700 leading-[1.15] tracking-[-0.03em] text-[#131316] mb-5"
+                className="text-[1.75rem] sm:text-[2.25rem] lg:text-[2.75rem] font-700 leading-[1.15] tracking-[-0.03em] text-[#131316] mb-3"
               >
-                La formation n°1 pour maîtriser le coaching en musculation, trouver des clients à l&apos;infini et{" "}
+                La formation n°1 pour{" "}
                 <span className="text-[#e5b80b]">
-                  vivre de sa passion en 6 mois.
+                  vivre du coaching en musculation
                 </span>
               </h1>
+
+              {/* H2 — promesse longue (ancien H1) */}
+              <h2 className="text-[0.9375rem] sm:text-[1.0625rem] font-500 leading-[1.4] text-[#555] mb-5 max-w-[460px]">
+                Maîtrisez le coaching, trouvez des clients à l&apos;infini,
+                vivez de votre passion en 6 mois.
+              </h2>
 
               {/* Subtitle */}
               <p className="text-[0.875rem] sm:text-[0.9375rem] text-[#555] leading-[1.6] mb-6 max-w-[420px]">
                 L&apos;école en ligne la plus complète du marché. De
-                l&apos;anatomie au business, la FMCS te forme sur les 5 piliers
-                indissociables du coaching.
+                l&apos;anatomie au business, la FMCS vous forme sur les 5
+                piliers indissociables du coaching.
               </p>
 
               {/* CTA */}
@@ -164,7 +170,7 @@ export default function Hero({ vslId = "TTLI7ZsYSFTFuoJT" }: { vslId?: string })
             className="text-[1.25rem] sm:text-[1.5rem] text-[#131316]/70"
             style={{ fontFamily: "var(--font-caveat), cursive" }}
           >
-            👇 Regarde cette vidéo, elle explique tout 👇
+            👇 Regardez cette vidéo, elle explique tout 👇
           </p>
         </motion.div>
 

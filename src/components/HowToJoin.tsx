@@ -9,20 +9,20 @@ const STEPS = [
   {
     num: "1",
     icon: CalendarCheck,
-    title: "Réserve ton appel",
+    title: "Réserve votre appel",
     description: "Clique sur le bouton et choisis un créneau. C'est gratuit et sans engagement.",
   },
   {
     num: "2",
     icon: Phone,
     title: "Échange avec un conseiller",
-    description: "On découvre ta situation, tes objectifs, et on t'explique l'accompagnement en détail.",
+    description: "On découvre votre situation, vos objectifs, et on vous explique l'accompagnement en détail.",
   },
   {
     num: "3",
     icon: Handshake,
     title: "Rejoins la FMCS",
-    description: "Si c'est fait pour toi, on t'ouvre l'accès et tu commences immédiatement.",
+    description: "Si c'est fait pour vous, on vous ouvre l'accès et vous commencez immédiatement.",
   },
 ];
 
@@ -45,12 +45,12 @@ export default function HowToJoin({ children }: { children?: React.ReactNode }) 
             🤝 Comment nous rejoindre ?
           </div>
           <h2 className="text-[clamp(1.75rem,4vw,2.75rem)] font-700 leading-[1.1] tracking-[-0.02em] mb-4">
-            Découvre si la FMCS est faite pour toi<br />
+            Découvre si la FMCS est faite pour vous<br />
             lors d&apos;un{" "}
             <span className="text-[#e5b80b]">appel gratuit.</span>
           </h2>
           <p className="text-[1.0625rem] text-[#555] leading-[1.6] max-w-[520px] mx-auto">
-            En cliquant sur le bouton, tu ne t&apos;engages à rien. Tu demandes
+            En cliquant sur le bouton, vous ne vous engages à rien. Vous demandez
             simplement à découvrir l&apos;accompagnement lors d&apos;un appel
             personnalisé avec un conseiller.
           </p>

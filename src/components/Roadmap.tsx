@@ -25,10 +25,10 @@ function RevenueCalculator({ inView }: { inView: boolean }) {
           💰 Calculateur de revenus
         </p>
         <h3 className="text-[1.5rem] sm:text-[2rem] font-700 text-[#131316] tracking-[-0.02em] mb-2">
-          Combien tu peux gagner grâce au coaching ?
+          Combien vous pouvez gagner grâce au coaching ?
         </h3>
         <p className="text-[0.9375rem] text-[#555] max-w-[450px] mx-auto">
-          Fais bouger les curseurs et vois par toi-même. Ça peut aller très vite !
+          Faites bouger les curseurs et vois par vous-même. Ça peut aller très vite !
         </p>
       </div>
 
@@ -118,10 +118,10 @@ function RevenueCalculator({ inView }: { inView: boolean }) {
       {/* Context */}
       <div className="text-center">
         <p className="text-[0.9375rem] text-[#555] leading-[1.6] mb-4 max-w-[480px] mx-auto">
-          En seulement quelques clients tu peux déjà rentabiliser la FMCS.
+          En seulement quelques clients vous pouvez déjà rentabiliser la FMCS.
           C&apos;est{" "}
           <span className="text-[#131316] font-600">
-            l&apos;investissement le plus rentable de ta carrière.
+            l&apos;investissement le plus rentable de votre carrière.
           </span>
         </p>
         <p className="text-[1.125rem] font-700 text-[#131316] mb-5">
@@ -159,7 +159,7 @@ const STEPS = [
     items: [
       "Anatomie, physiologie et biomécanique",
       "Les bases de la nutrition sportive",
-      "Tu comprends le corps humain mieux que 95% des pratiquants",
+      "Vous comprenez le corps humain mieux que 95% des pratiquants",
     ],
     roi: null,
   },
@@ -170,7 +170,7 @@ const STEPS = [
     items: [
       "Programmation d'entraînement complète",
       "Nutrition avancée : diètes, pathologies, timing",
-      "Tu sais créer un programme adapté à n'importe quel profil",
+      "Vous savez créer un programme adapté à n'importe quel profil",
     ],
     roi: null,
   },
@@ -181,7 +181,7 @@ const STEPS = [
     items: [
       "Anamnèse, bilan postural, profils psychologiques",
       "Techniques de suivi et de fidélisation",
-      "Tes clients restent, progressent et te recommandent",
+      "Vos clients restent, progressent et vous recommandent",
     ],
     roi: null,
   },
@@ -190,8 +190,8 @@ const STEPS = [
     title: "Le business",
     emoji: "💼",
     items: [
-      "Trouver tes premiers clients (plan en 5 étapes)",
-      "Fixer tes tarifs, créer ton auto-entreprise",
+      "Trouver vos premiers clients (plan en 5 étapes)",
+      "Fixer vos tarifs, créer votre auto-entreprise",
       "Réseaux sociaux comme levier d'acquisition",
     ],
     roi: "Premiers clients trouvés",
@@ -214,7 +214,7 @@ const STEPS = [
     items: [
       "Communauté privée pour continuer à progresser",
       "Accès 1 an pour revoir tout le contenu",
-      "Tu vis de ta passion et tu développes ton activité",
+      "Vous vivez de votre passion et vous développez votre activité",
     ],
     roi: "Revenus récurrents",
   },
@@ -248,7 +248,7 @@ export default function Roadmap() {
             <span className="text-[#e5b80b]">6 mois</span> pour vivre du coaching
           </h2>
           <p className="text-[1.0625rem] text-[#555] leading-[1.6] max-w-[520px] mx-auto">
-            De zéro à coach rentable. Voici exactement ce qui se passe quand tu
+            De zéro à coach rentable. Voici exactement ce qui se passe quand vous
             rejoins la FMCS.
           </p>
         </motion.div>

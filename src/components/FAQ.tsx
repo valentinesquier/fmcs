@@ -8,7 +8,7 @@ import GridLines from "./GridLines";
 const QUESTIONS = [
   {
     q: "BPJEPS, STAPS, CQP ou FMCS : lequel choisir ?",
-    a: "La carte professionnelle est obligatoire pour exercer en salle, club ou association. En dehors, coaching en ligne, à domicile ou en extérieur, tu peux te lancer en toute légalité. La FMCS t'accompagne directement vers le CQP, la voie la plus rapide et la moins chère pour décrocher ta carte pro. Ce que le CQP, le BPJEPS ou le STAPS ne t'apprendront jamais : la nutrition avancée, la programmation poussée, et comment trouver des clients. La FMCS, si.",
+    a: "La carte professionnelle est obligatoire pour exercer en salle, club ou association. En dehors, coaching en ligne, à domicile ou en extérieur, vous pouvez vous lancer en toute légalité. La FMCS vous accompagne directement vers le CQP, la voie la plus rapide et la moins chère pour décrocher votre carte pro. Ce que le CQP, le BPJEPS ou le STAPS ne vous apprendront jamais : la nutrition avancée, la programmation poussée, et comment trouver des clients. La FMCS, si.",
   },
   {
     q: "Je n'ai pas le temps avec mon boulot, comment faire ?",
@@ -20,15 +20,15 @@ const QUESTIONS = [
   },
   {
     q: "Le certificat FMCS est-il reconnu par l'État ?",
-    a: "Non, et on ne va pas te dire le contraire. Pour exercer légalement en salle, il te faudra un diplôme d'État pour ta carte professionnelle. La FMCS ne remplace pas cette démarche, elle la complète. C'est pourquoi on t'accompagne directement vers le CQP. Tu sors de la FMCS avec les compétences. Tu passes le CQP pour avoir le papier.",
+    a: "Non, et on ne va pas vous dire le contraire. Pour exercer légalement en salle, il vous faudra un diplôme d'État pour votre carte professionnelle. La FMCS ne remplace pas cette démarche, elle la complète. C'est pourquoi on vous accompagne directement vers le CQP. Vous sortez de la FMCS avec les compétences. Vous passez le CQP pour avoir le papier.",
   },
   {
     q: "Comment se passe l'examen final ?",
-    a: "L'examen est conçu pour vérifier que tu es prêt à encadrer des clients. Tu peux le passer à la fin de la formation. À l'issue, tu reçois ton certificat FMCS signé par Nassim, avec la possibilité d'accéder à la carte pro si tu ne l'as pas encore.",
+    a: "L'examen est conçu pour vérifier que vous êtes prêt à encadrer des clients. Vous pouvez le passer à la fin de la formation. À l'issue, vous recevez votre certificat FMCS signé par Nassim, avec la possibilité d'accéder à la carte pro si vous ne l'avez pas encore.",
   },
   {
     q: "Ça coûte combien ?",
-    a: "Bien moins cher qu'un BPJEPS ou un STAPS (qui coûtent en moyenne +8 000€), pour une formation bien plus complète. Le prix exact est révélé durant l'appel découverte, car il dépend de ton profil et de tes objectifs.",
+    a: "Bien moins cher qu'un BPJEPS ou un STAPS (qui coûtent en moyenne +8 000€), pour une formation bien plus complète. Le prix exact est révélé durant l'appel découverte, car il dépend de votre profil et de vos objectifs.",
   },
 ];
 
@@ -93,8 +93,8 @@ export default function FAQ() {
               Questions fréquentes
             </h2>
             <p className="text-[1.125rem] text-[#555] leading-[1.5] max-w-[480px]">
-              Tout ce que tu as besoin de savoir avant de rejoindre la FMCS. Une
-              question en plus ? Réserve ton appel découverte.
+              Tout ce que vous avez besoin de savoir avant de rejoindre la FMCS. Une
+              question en plus ? Réserve votre appel découverte.
             </p>
           </motion.div>
 

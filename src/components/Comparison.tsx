@@ -8,7 +8,7 @@ import GridLines from "./GridLines";
 
 const ROWS = [
   { label: "Durée", fmcs: "6 mois", classic: "12 à 18 mois" },
-  { label: "Format", fmcs: "100% en ligne, à ton rythme", classic: "Présentiel imposé" },
+  { label: "Format", fmcs: "100% en ligne, à votre rythme", classic: "Présentiel imposé" },
   { label: "Anatomie & Physiologie", fmcs: true, classic: true },
   { label: "Nutrition avancée", fmcs: true, classic: false },
   { label: "Programmation poussée", fmcs: true, classic: false },
@@ -42,7 +42,7 @@ export default function Comparison() {
             <span className="text-[#888]">Formations classiques</span>
           </h2>
           <p className="text-[1.0625rem] text-[#555] leading-[1.6] max-w-[520px] mx-auto">
-            Compare par toi-même ce que tu obtiens avec la FMCS par rapport à un
+            Comparez par vous-même ce que vous obtenez avec la FMCS par rapport à un
             BPJEPS ou un STAPS.
           </p>
         </motion.div>

@@ -69,13 +69,13 @@ export default function ExitPopup() {
           </div>
 
           <h3 className="mb-3 text-2xl font-700 tracking-tight text-[#131316] sm:text-3xl">
-            Attends, tu pars déjà ?
+            Attendez, vous partez déjà ?
           </h3>
           <p className="mx-auto mb-8 max-w-sm text-base leading-relaxed text-[#555]">
-            Tu es à un appel de découvrir comment{" "}
+            Vous êtes à un appel de découvrir comment{" "}
             <span className="font-600 text-[#e5b80b]">vivre du coaching en musculation</span>.
             <br />
-            Et tu dis non ? Alors que c&apos;est gratuit et sans engagement.
+            Et vous dites non ? Alors que c&apos;est gratuit et sans engagement.
           </p>
 
           <a
