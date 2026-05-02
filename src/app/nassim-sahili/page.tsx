@@ -295,7 +295,17 @@ export default function NassimSahiliPage() {
         </aside>
 
         {/* Corps article */}
-        <article className="mx-auto max-w-[720px] px-6 prose prose-neutral prose-lg prose-p:leading-[1.9] prose-p:my-7 prose-li:leading-[1.8] prose-li:my-3 prose-ol:my-7 prose-ul:my-7 prose-h2:mt-16 prose-h2:mb-7 prose-h3:mt-12 prose-h3:mb-5 prose-headings:scroll-mt-24 prose-h2:relative prose-h2:pt-3 prose-a:text-[#131316] prose-a:underline-offset-2 hover:prose-a:text-[#e5b80b]">
+        <article
+          className="mx-auto max-w-[720px] px-6
+            [&_p]:text-[1.0625rem] [&_p]:leading-[1.9] [&_p]:text-[#2a2a2a] [&_p]:my-7
+            [&_h2]:text-[1.625rem] sm:[&_h2]:text-[1.875rem] [&_h2]:font-700 [&_h2]:tracking-[-0.02em] [&_h2]:text-[#131316] [&_h2]:mt-20 [&_h2]:mb-7 [&_h2]:scroll-mt-24 [&_h2]:leading-[1.2]
+            [&_h3]:text-[1.125rem] [&_h3]:font-700 [&_h3]:tracking-[-0.01em] [&_h3]:text-[#131316] [&_h3]:mt-14 [&_h3]:mb-5
+            [&_ul]:my-7 [&_ul]:list-disc [&_ul]:pl-6
+            [&_ol]:my-7 [&_ol]:list-decimal [&_ol]:pl-6
+            [&_li]:my-3 [&_li]:leading-[1.85] [&_li]:text-[1.0625rem] [&_li]:text-[#2a2a2a]
+            [&_strong]:font-700 [&_strong]:text-[#131316]
+            [&_a]:text-[#131316] [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-[#e5b80b] [&_a]:transition-colors"
+        >
 
           <h2 id="coach-2011">Coach diplômé d&apos;État depuis 2011</h2>
           <p>
@@ -701,7 +711,7 @@ export default function NassimSahiliPage() {
             <p className="text-[0.6875rem] font-700 uppercase tracking-[0.15em] text-[#e5b80b] mb-3">
               Discuter avec l&apos;équipe FMCS
             </p>
-            <h2 className="text-[1.5rem] sm:text-[2rem] font-700 leading-[1.15] tracking-[-0.02em] mb-4">
+            <h2 className="text-[1.5rem] sm:text-[2rem] font-700 leading-[1.15] tracking-[-0.02em] text-white mb-4">
               Vous voulez devenir coach et vivre de votre passion ?
             </h2>
             <p className="text-[0.9375rem] sm:text-[1rem] text-white/70 max-w-[520px] mx-auto mb-7 leading-[1.8]">
