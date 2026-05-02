@@ -198,7 +198,7 @@ export default function NassimSahiliPage() {
                 Nassim Sahili — Coach diplômé d&apos;État, fondateur FMCS et
                 créateur Fitmass
               </h1>
-              <p className="text-[1.0625rem] text-[#555] leading-[1.6]">
+              <p className="text-[1.0625rem] text-[#555] leading-[1.8]">
                 Coach diplômé d&apos;État depuis 2011, Nassim Sahili est le
                 créateur de la chaîne YouTube Fitmass, l&apos;une des plus
                 grandes chaînes de musculation francophones avec plus de 1,2
@@ -219,7 +219,7 @@ export default function NassimSahiliPage() {
             <p className="text-[0.6875rem] font-700 uppercase tracking-[0.15em] text-[#e5b80b] mb-4">
               Faits clés
             </p>
-            <dl className="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-[0.9375rem]">
+            <dl className="grid sm:grid-cols-2 gap-x-8 gap-y-5 text-[0.9375rem] leading-[1.6]">
               <div className="flex gap-2">
                 <dt className="text-[#888] shrink-0">Diplôme :</dt>
                 <dd className="text-[#131316] font-500">
@@ -279,7 +279,7 @@ export default function NassimSahiliPage() {
             <p className="text-[0.6875rem] font-700 uppercase tracking-[0.15em] text-[#e5b80b] mb-3">
               Dans cette page
             </p>
-            <ol className="space-y-2 text-[0.9375rem] list-decimal list-inside text-[#131316]">
+            <ol className="space-y-3 text-[0.9375rem] leading-[1.6] list-decimal list-inside text-[#131316]">
               {TOC.map((item) => (
                 <li key={item.id}>
                   <a
@@ -295,7 +295,7 @@ export default function NassimSahiliPage() {
         </aside>
 
         {/* Corps article */}
-        <article className="mx-auto max-w-[720px] px-6 prose prose-neutral prose-lg prose-headings:scroll-mt-24 prose-h2:relative prose-h2:pt-3 prose-a:text-[#131316] prose-a:underline-offset-2 hover:prose-a:text-[#e5b80b]">
+        <article className="mx-auto max-w-[720px] px-6 prose prose-neutral prose-lg prose-p:leading-[1.9] prose-p:my-7 prose-li:leading-[1.8] prose-li:my-3 prose-ol:my-7 prose-ul:my-7 prose-h2:mt-16 prose-h2:mb-7 prose-h3:mt-12 prose-h3:mb-5 prose-headings:scroll-mt-24 prose-h2:relative prose-h2:pt-3 prose-a:text-[#131316] prose-a:underline-offset-2 hover:prose-a:text-[#e5b80b]">
 
           <h2 id="coach-2011">Coach diplômé d&apos;État depuis 2011</h2>
           <p>
@@ -447,8 +447,8 @@ export default function NassimSahiliPage() {
             sur FMCS :
           </p>
 
-          <blockquote className="border-l-4 border-[#e5b80b] bg-[#f8f7f4] not-italic py-4 px-6 rounded-r-lg my-8">
-            <p className="text-[1rem] sm:text-[1.0625rem] leading-[1.6] text-[#131316] mb-2 italic">
+          <blockquote className="border-l-4 border-[#e5b80b] bg-[#f8f7f4] not-italic py-6 px-6 sm:px-8 rounded-r-lg my-10">
+            <p className="text-[1rem] sm:text-[1.0625rem] leading-[1.85] text-[#131316] mb-3 italic">
               « Aujourd&apos;hui je suis face à un dilemme. Est-ce que je dois
               continuer à supporter de voir des stagiaires perdre 10 à 18 mois
               de leur vie et 6 000 € pour sortir avec des connaissances datant
@@ -469,7 +469,7 @@ export default function NassimSahiliPage() {
             piliers.
           </p>
 
-          <p className="not-prose mt-6 mb-8 text-[0.9375rem] leading-[1.55] text-[#555] bg-[#fff8e1] border-l-4 border-[#e5b80b] py-3 px-4 rounded-r">
+          <p className="not-prose mt-8 mb-10 text-[0.9375rem] leading-[1.75] text-[#555] bg-[#fff8e1] border-l-4 border-[#e5b80b] py-4 px-5 rounded-r">
             <strong className="text-[#131316]">À noter :</strong> Nassim n&apos;a
             jamais encouragé l&apos;exercice du coaching sans diplôme. FMCS
             ne délivre pas la carte professionnelle d&apos;éducateur sportif et
@@ -704,7 +704,7 @@ export default function NassimSahiliPage() {
             <h2 className="text-[1.5rem] sm:text-[2rem] font-700 leading-[1.15] tracking-[-0.02em] mb-4">
               Vous voulez devenir coach et vivre de votre passion ?
             </h2>
-            <p className="text-[0.9375rem] sm:text-[1rem] text-white/70 max-w-[520px] mx-auto mb-6 leading-[1.6]">
+            <p className="text-[0.9375rem] sm:text-[1rem] text-white/70 max-w-[520px] mx-auto mb-7 leading-[1.8]">
               Réservez un appel découverte gratuit. On évalue votre situation,
               vos objectifs, et on vous explique en détail comment
               l&apos;accompagnement fonctionne.
