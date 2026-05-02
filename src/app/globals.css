@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme inline {
   /* Light theme — white dominant, marble alternance */
@@ -304,5 +305,91 @@ h1, h2, h3, h4, h5, h6 {
 .animate-pulse-dot {
   display: inline-block;
   animation: pulseDot 1.4s infinite ease-in-out both;
+}
+
+/* ===========================================================================
+   prose-fmcs — variant Typography aux tokens FMCS
+   À utiliser : <article class="prose prose-lg prose-fmcs">
+   Tokens : or accent #e5b80b, texte sombre #131316, corps #2a2a2a
+   =========================================================================== */
+
+@utility prose-fmcs {
+  /* Palette */
+  --tw-prose-body: #2a2a2a;
+  --tw-prose-headings: #131316;
+  --tw-prose-lead: #555555;
+  --tw-prose-links: #131316;
+  --tw-prose-bold: #131316;
+  --tw-prose-counters: #888888;
+  --tw-prose-bullets: #d0d0d0;
+  --tw-prose-hr: #e5e5e5;
+  --tw-prose-quotes: #131316;
+  --tw-prose-quote-borders: #e5b80b;
+  --tw-prose-captions: #888888;
+  --tw-prose-code: #131316;
+  --tw-prose-pre-code: #f8f7f4;
+  --tw-prose-pre-bg: #131316;
+  --tw-prose-th-borders: #e5e5e5;
+  --tw-prose-td-borders: #e5e5e5;
+}
+
+/* Overrides "texte respire" + tracking + hover or sur liens
+   Spécifiques FMCS, repris du look validé sur /nassim-sahili.
+   Sélecteurs alignés sur ceux du plugin Typography (:where + :not(.not-prose)). */
+
+.prose-fmcs :where(p):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-size: 1.0625rem;
+  line-height: 1.9;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.prose-fmcs :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-size: 1.625rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-top: 5rem;
+  margin-bottom: 1.75rem;
+  scroll-margin-top: 6rem;
+}
+
+@media (min-width: 640px) {
+  .prose-fmcs :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    font-size: 1.875rem;
+  }
+}
+
+.prose-fmcs :where(h3):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-size: 1.125rem;
+  letter-spacing: -0.01em;
+  margin-top: 3.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose-fmcs :where(ul, ol):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.prose-fmcs :where(li):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-fmcs :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: inherit;
+  transition: color 0.2s ease;
+}
+
+.prose-fmcs :where(a):hover:not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #e5b80b;
+}
+
+.prose-fmcs :where(strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-weight: 700;
 }
 
