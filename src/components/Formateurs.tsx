@@ -17,7 +17,7 @@ const TEAM = [
   {
     name: "Harry",
     role: "Éducateur sportif & Formateur",
-    highlights: ["Cursus STAPS", "Approche multi-sport", "Stages Muscle Academy"],
+    highlights: ["Cursus STAPS", "Approche multi-sport", "Coaching terrain"],
     bio: "Après le cursus STAPS, Harry a trouvé sa vocation dans le coaching. Son approche multi-sport en fait un atout de taille dans l'équipe.",
     featured: false,
   },

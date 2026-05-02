@@ -395,9 +395,9 @@ export default function NassimSahiliPage() {
           </ol>
           <p>
             La méthode est née sur le terrain. Nassim l&apos;a d&apos;abord
-            construite pour son propre coaching, validée sur ses clients, ses
-            élèves YouTube et ses stagiaires Muscle Academy, avant de
-            l&apos;adapter pour former des coachs.
+            construite pour son propre coaching, validée sur ses clients et
+            ses élèves YouTube, avant de l&apos;adapter pour former des
+            coachs.
           </p>
 
           <h2 id="creation-fmcs">Pourquoi Nassim a créé FMCS en 2021</h2>
@@ -616,9 +616,8 @@ export default function NassimSahiliPage() {
           <ul>
             <li>
               <strong>Harry</strong> — éducateur sportif diplômé STAPS,
-              spécialiste coaching multi-sport. Il assiste Nassim sur les
-              stages Muscle Academy et intervient sur les modules
-              d&apos;application terrain.
+              spécialiste coaching multi-sport. Il intervient sur les
+              modules d&apos;application terrain de la formation.
             </li>
             <li>
               <strong>Cédric</strong> — spécialiste programmation
