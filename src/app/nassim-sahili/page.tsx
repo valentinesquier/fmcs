@@ -711,7 +711,10 @@ export default function NassimSahiliPage() {
             <p className="text-[0.6875rem] font-700 uppercase tracking-[0.15em] text-[#e5b80b] mb-3">
               Discuter avec l&apos;équipe FMCS
             </p>
-            <h2 className="text-[1.5rem] sm:text-[2rem] font-700 leading-[1.15] tracking-[-0.02em] text-white mb-4">
+            <h2
+              className="text-[1.5rem] sm:text-[2rem] font-700 leading-[1.15] tracking-[-0.02em] mb-4"
+              style={{ color: "#ffffff" }}
+            >
               Vous voulez devenir coach et vivre de votre passion ?
             </h2>
             <p className="text-[0.9375rem] sm:text-[1rem] text-white/70 max-w-[520px] mx-auto mb-7 leading-[1.8]">
