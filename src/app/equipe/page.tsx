@@ -235,8 +235,8 @@ export default function EquipePage() {
               initiale="H"
               eyebrow="Formateur multi-sport"
               nom="Harry"
-              role="Coaching multi-sport · Stages Muscle Academy"
-              bio="Éducateur sportif diplômé STAPS, spécialiste du coaching multi-sport. Harry assiste Nassim sur les stages Muscle Academy et intervient sur les modules d'application terrain de la formation FMCS."
+              role="Coaching multi-sport · Application terrain"
+              bio="Éducateur sportif diplômé STAPS, spécialiste du coaching multi-sport. Harry intervient sur les modules d'application terrain de la formation FMCS."
             />
             <FormateurCard
               initiale="C"
